@@ -1,0 +1,33 @@
+body {
+  font-family: sans-serif;
+  background: #222;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.music-player {
+  background: #333;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  width: 300px;
+}
+
+.controls button {
+  background: #444;
+  border: none;
+  color: white;
+  font-size: 20px;
+  margin: 10px;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 50%;
+}
+
+input[type="range"] {
+  width: 100%;
+  margin: 10px 0;
+}
